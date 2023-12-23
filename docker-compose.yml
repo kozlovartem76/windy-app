@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  windy-fastapi-service:
+    build: .
+    ports:
+      - "8000:80"
